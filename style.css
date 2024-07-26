@@ -30,3 +30,38 @@ tbody tr{
 .negro{
     color: black;
 }
+/* Media queries */
+@media (max-width: 480px){
+    #headerNav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    #menuNav{
+        display: flex;
+        flex-direction: column;
+    }
+    .titulo{
+        margin-right: 20px;
+    }
+    .titulo span{
+        font-weight: 100px;
+    }
+    .containerCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 768px) {
+    .containerCard {
+        flex-basis: 100%;
+    }
+  }
+@media (max-width: 1024px) {
+    .containerCard {
+        flex-basis: 50%;
+    }
+}
