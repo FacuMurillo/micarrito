@@ -56,12 +56,8 @@ tbody tr{
     }
 }
 @media (max-width: 768px) {
-    .containerCard {
-        flex-basis: 100%;
-    }
+    
   }
 @media (max-width: 1024px) {
-    .containerCard {
-        flex-basis: 50%;
-    }
+    
 }
